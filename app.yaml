@@ -1,0 +1,12 @@
+runtime: php
+env: flex
+runtime_config:
+    document_root: .
+env_variables:
+    APP_LOG: errorlog
+    GOOGLE_STORAGE_BUCKET: "cloudnotes-323921.appspot.com"
+    MYSQL_USER: "root"
+    MYSQL_PASSWORD: "12Eh1xLud3FDbzqd"
+    MYSQL_DSN: "mysql:dbname=cloudnotes;unix_socket=/cloudsql/cloudnotes-323921:europe-west1:cloudnotes-323921"
+beta_settings:
+    cloud_sql_instances: "cloudnotes-323921:europe-west1:cloudnotes-323921"
